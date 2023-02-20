@@ -1,0 +1,38 @@
+.signInPage{
+    height: 90vh;
+}
+.signInPage__container{
+
+    margin: 20vh auto auto;
+    position: relative;
+    position: relative;
+}
+.signInPage__inner-container{
+    padding: 20px;
+
+
+}
+.signInPage__checkbox{
+    margin: 5px;
+}
+.signInPage__container .default-button{
+    margin-left: 8px;
+
+}
+.signInPage .default-title {
+    margin-top: 0px;
+}
+
+.signInPage__bottom-container{
+    width: 100%;
+    display: block;
+    border-top: 1px solid rgba(143, 143, 143, 0.41);
+}
+.signInPage__bottom-container div{
+    padding: 0 25px;
+}
+
+
+.signInPage__bottom-container div{
+    margin: 10px 2px;
+}

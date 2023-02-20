@@ -1,0 +1,57 @@
+.settingPage {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 97%;
+  margin: auto;
+  height: 90vh;
+
+}
+.settingPage__control-bar {
+  border: 2px solid #838383;
+  margin: 15px 15px 15px 0;
+  padding: 15px;
+  font-size: 22px;
+  min-height: 80vh;
+}
+.settingPage__control-bar div {
+  margin: 8px 0;
+}
+.settingPage__control-bar div:hover {
+  cursor: pointer;
+  width: max-content;
+}
+
+.settingPage__general-settings {
+  border: 2px solid #838383;
+  margin: 15px 15px 15px 0;
+}
+.settingPage .default-title {
+  font-size: 32px;
+  text-align: left;
+  padding: 0 25px;
+  margin: 10px 0 0 5px;
+}
+
+.settingPage .default-title span {
+  padding-left: 24px;
+}
+
+.general-settings__options {
+  padding-left: 35px;
+}
+.general-settings__option {
+  display: flex;
+  position: relative;
+  margin-top: 25px;
+}
+.general-settings__option span:first-child {
+  width: 160px;
+  display: block;
+}
+
+.general-settings__option span:last-child {
+  position: absolute;
+  right: 40px;
+  text-align: center;
+  cursor: pointer;
+}

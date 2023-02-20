@@ -1,0 +1,21 @@
+
+/*Components*/
+@import "./AboutBlock.css";
+@import "./Post.css";
+@import "./UserPhotosBlock.css";
+@import "SignInPage.css";
+@import "./Bottom.css";
+@import "./Header.css";
+@import "./ModalPhoto.css";
+
+/*Pages*/
+@import "LandigPage.css";
+@import "./ProfilePage.css";
+@import "./NewsBoardPage.css";
+@import "./PhotosPage.css";
+@import "./FriendsPage.css";
+@import "./SettingsPage.css";
+@import "./SearchPage.css";
+@import "./SignUpPage.css";
+@import "./ForgottenPasswordPage.css";
+@import "./UploadPage.css";

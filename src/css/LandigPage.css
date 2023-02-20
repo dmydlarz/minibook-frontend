@@ -1,0 +1,22 @@
+.landing-page{
+    height: 90vh;
+    width: 100%;
+}
+.landing-page__container{
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 350px;
+}
+.landing-page__container h1{
+    font-weight: bolder;
+    padding: 0;
+    font-size: 50px;
+    margin-top: 50%;
+    margin-bottom: 0px;
+}
+.landing-page h2 {
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 0px;
+}

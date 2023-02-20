@@ -1,0 +1,37 @@
+.aboutBlock{
+    margin-top: 15px;
+    border: 2px solid rgba(131, 131, 131, 0.38);
+    border-radius: 2px;
+}
+.aboutBlock__about {
+    margin: 10px 25px 5px 25px;
+    font-size: 21px;
+    position: relative;
+}
+.aboutBlock__about span {
+    padding: 10px;
+}
+
+.aboutBlock__about:after{
+    height: 2px;
+    width: 100%;
+    background-color: rgba(131, 131, 131, 0.49);
+    display: flex;
+    content: ' ';
+}
+.aboutBlock__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 35px;
+}
+.aboutBlock__aboutBlock div{
+    display: flex;
+    margin-bottom: 20px;
+    color: #838383;
+    font-size: 0.9em;
+}
+.aboutBlock__container span:first-child {
+    /*background-color: black;*/
+    width: 150px;
+    display: block;
+}

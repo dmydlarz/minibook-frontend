@@ -1,0 +1,15 @@
+.modalPhoto{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(131, 131, 131, 0.25);
+    z-index: 1000;
+
+}
+.modalPhoto img{
+    width: 60%;
+    margin: 6% auto;
+    display: block;
+
+
+}

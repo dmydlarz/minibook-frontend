@@ -1,0 +1,40 @@
+.userPhotosBlock {
+width: 100%;
+    border: 2px solid rgba(131, 131, 131, 0.44);
+    margin-top: 20px;
+    border-radius: 2px;
+    position: relative;
+    justify-content: space-between;
+}
+.userPhotosBlock div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+}
+.userPhotosBlock a{
+    display: contents;
+    position: relative;
+}
+.userPhotosBlock img{
+    width: 80%;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.userPhotosBlock h2{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: normal;
+    padding: 0px 35px;
+}
+.userPhotosBlock h2:after{
+    height: 2px;
+    background-color: rgba(131, 131, 131, 0.52);
+    display: block;
+    content: ' ';
+    margin-top: 10px;
+}
+.userPhotosBlock img+img{
+    margin: 22px auto;
+}

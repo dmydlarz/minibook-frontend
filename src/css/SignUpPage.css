@@ -1,0 +1,27 @@
+.signUpPage{
+height: 100vh;
+}
+.signUpPage .default-title{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.signUpPage__inner-container{
+    padding: 5px;
+}
+
+.signUpPage__bottom-block{
+    border-top: 1px #838383 solid;
+    padding: 10px;
+}
+.signUpPage__bottom-buttons{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.signUpPage__bottom-buttons button{
+    padding: 7px 50px;
+    margin: 10px 4px;
+
+    display: block;
+}

@@ -1,0 +1,27 @@
+.post {
+  width: 98%;
+  height: max-content;
+  border-radius: 8px;
+  border: 1px solid #838383;
+  margin: 15px auto auto;
+}
+.post .title{
+    /*margin: 7px auto 4px 5px;*/
+    display: block;
+    padding: 9px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.post .author{
+    position: absolute;
+    right: 12px;
+}
+.post .text {
+    padding: 9px;
+}
+.post .time{
+    text-align: right;
+    padding: 3px 10px 3px 3px;
+    color: #838383;
+    font-size: 0.8em;
+}

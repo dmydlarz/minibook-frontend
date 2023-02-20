@@ -1,0 +1,24 @@
+.friendsPage{
+    width: 93%;
+    margin: auto;
+    display: block;
+}
+.friendsPage__friend-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.friendsPage__friend{
+    display: block;
+    position: relative;
+    border-radius: 2px;
+    border: 2px solid #838383;
+    width: 90%;
+    margin: 10px auto ;
+    font-size: 18px;
+    text-align: center;
+}
+.friendsPage__friend img{
+    width: 90%;
+margin: 4px auto;
+    display: block;
+}

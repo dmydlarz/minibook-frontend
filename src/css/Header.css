@@ -1,0 +1,33 @@
+.header{
+    height: 55px;
+    border: 1px solid rgba(0, 0, 0, 0.56);
+    position: relative;
+    display: flex;
+    border-radius: 4px;
+}
+.header__logo{
+    margin: auto 20px;
+    font-size: 21px;
+    width: 10%;
+    display: block;
+}
+.header__button-container{
+    margin-left: auto;
+    width: max-content;
+    height: 100%;
+    display: flex;
+}
+.header__notification-block{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto 15px auto auto;
+    display: block;
+}
+.header__notification-block span{
+    padding: 1px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+
+}

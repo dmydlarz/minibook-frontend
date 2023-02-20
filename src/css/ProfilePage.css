@@ -1,0 +1,79 @@
+.profilePage{
+
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    width: 92%;
+    margin: auto;
+    position: relative;
+    height: 100vh;
+
+}
+.profilePage__user-block{
+    display: block;
+    position: relative;
+    margin: 15px;
+    min-width: 220px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    overflow: hidden;
+    height:85%;
+    min-height: 75%;
+}
+.profilePage__user-img{
+    width: 100%;
+    cursor: pointer;
+
+}
+.profilePage__user-inside-container{
+    margin: 6px 25px;
+
+}
+.profilePage__user-inside-container .username{
+    padding: 0px 0px 6px 0;
+    font-size: 21px;
+    font-weight: 400
+}
+
+.profilePage__status-container{
+    border-radius: 10px;
+    background-color: rgba(176, 176, 176, 0.22);
+    padding: 10px 20px;
+    font-size: 14px;
+    position: relative;
+    margin-top: 17px;
+}
+.profilePage__status-container .status-line {
+    width: 100%;
+}
+
+.profilePage__status-container .status-line:after {
+    height: 1px ;
+    width: 100%;
+    display: block;
+    content: ' ';
+    background-color: #838383;
+    margin-top: 4px;
+
+}
+.profilePage__status-container .status{
+    background-color: #838383;
+    border-radius: 5px;
+    padding: 1px 14px;
+    float: right;
+    color: white;
+    font-size: 12px;
+
+}
+
+.profilePage__status-container .member-line{
+    margin-top: 5px;
+    font-size: 12px;
+    width: 100%;
+    display: block;
+
+}
+.profilePage__status-container .member-line .data{
+    font-size: 12px;
+    float: right;
+
+}

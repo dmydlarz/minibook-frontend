@@ -1,0 +1,111 @@
+.newsBoardPage {
+  width: 96%;
+  margin: auto;
+    display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+.newsBoardPage__newBoardPost {
+  padding: 20px;
+  font-size: 19px;
+}
+.newsBoardPage__posts{
+  height: 80vh;
+  /*overflow: paged-y;*/
+  /*overflow-x: scroll;*/
+
+  overflow-y: auto;
+}
+.newsBoardPage__newBoardPost-block {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 12px;
+  display: block;
+  width: 95%;
+  margin: 15px 15px 0px;
+}
+.newsBoardPage__title {
+  font-size: 19px;
+
+  padding: 0px 20px 0px;
+}
+.newsBoardPage__title:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 8px;
+  background-color: #838383;
+}
+.newsBoardPage__user-block{
+  position: relative;
+  margin: 45px 0px 20px 20px;
+  border: 1px solid #838383;
+  border-radius: 5px;
+}
+.newsBoardPage__user-inner-block{
+  padding: 15px;
+
+}
+.newsBoardPage__user-img{
+  width: 100%;
+}
+.newsBoardPage__user-friends{
+  text-align: center;
+  margin: 2px;
+}
+.newsBoardPage__user-name{
+border-top: 1px solid #838383;
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+.newsBoardPage__notifications{
+  border: 1px solid #838383;
+  margin-left: 20px;
+  display: block;
+  border-radius: 5px;
+}
+.newsBoardPage__notifications-top-panel{
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+  color: #838383;
+}
+.newsBoardPage__inside-block-notifications{
+  padding: 20px;
+  height: 35vh;
+  overflow: scroll;
+}
+.newsBoardPage__notification{
+  margin: 10px 0;
+  color: #838383;
+}
+
+
+.newsBoardPage__notification-buttons{
+  width: max-content;
+  margin: auto;
+}
+.newsBoardPage__notification-buttons button{
+  border-radius: 10px;
+  border: 1px solid #838383;
+  background-color: white;
+  font-size: 12px;
+  margin: 5px 2px 2px;
+  color: #838383;
+}
+.newsBoardPage__notification:after{
+  background-color: #838383;
+  display: block;
+  content: " ";
+  height: 1px;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.newsBoardPage__notification-time{
+  text-align: right;
+  display: block;
+}

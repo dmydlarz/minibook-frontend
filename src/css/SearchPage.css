@@ -1,0 +1,50 @@
+.searchPage{
+    width: 95%;
+    margin: auto;
+}
+.searchPage span:first-child{
+    text-align: center;
+    font-size: 26px;
+    display: block;
+    margin-top: 10px;
+}
+
+.searchPage__container{
+    border: 1px solid #838383;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.searchPage__result{
+    position: relative;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    margin: 20px 10px;
+}
+.searchPage__result div div:first-child{
+    margin: 5px 15px;
+    font-size: 21px;
+}
+
+.searchPage__result div div:last-child{
+    margin: 0px 15px;
+    font-size: 18px;
+}
+
+.searchPage__result:after{
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: #838383;
+    display: block;
+    content: ' ';
+    bottom: -15px;
+    position: absolute;
+    left: 30px;
+}
+
+.searchPage__result img{
+    height: 100%;
+    /*width: 100%;*/
+}
